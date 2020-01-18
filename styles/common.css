@@ -1,10 +1,11 @@
-
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: black;
   overflow-x: hidden;
 }
-
 
 p, li {
   font-family: 'open sans';
@@ -25,6 +26,8 @@ h2 {
   color: #16D41A;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 20vw;
+  margin-left: 3vw;
 }
 
 a {

@@ -1,23 +1,84 @@
-.pinkS {
-  color: #FB16BB;
-  width: 129vw;
-  height: 129vw;
+.team__box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.greenS {
-  color: #16D41A;
-  width: 129vw;
-  height: 129vw;
+.team__box__member {
+  width: 45vw;
+  height: 45vw;
+  position: relative;
+  flex-shrink: 0;
 }
 
-.redS {
-  color: #FA1516;
-  width: 129vw;
-  height: 129vw;
+.team__box__member img {
+  position: absolute;
 }
 
-.yellowS {
-  color: #FCFC17;
-  width: 129vw;
-  height: 129vw;
+.Olesya img  {
+  display: block;
+  box-shadow: -3vw 15vw #FB16BB;
+/*  margin-left: 7vw;
+    margin-top: 11vw;
+*/
 }
+/*
+.Olesya a {
+  margin-left: 7vw;
+  margin-top: 4vw;
+  display: inline-block;
+  text-decoration: none;
+}
+*/
+
+.Lilya img {
+  display: block;
+  box-shadow: 8vw 11vw #16D41A;
+  /*
+  margin-left: 56vw;
+  margin-top: -46vw;
+  */
+}
+
+/*
+.Lilya a {
+  margin-left: 7vw;
+  margin-top: 2vw;
+  display: inline-block;
+  text-decoration: none;
+}
+*/
+
+.Eva img {
+  display: block;
+  box-shadow: 7vw -10vw #FA1516;
+  /*
+  margin-top: 28vw;
+  margin-left: 2vw;
+  */
+}
+
+/*
+.Eva a {
+  margin-left: 7vw;
+  margin-top: 13vw;
+}
+*/
+
+.Vita img {
+  display: block;
+  box-shadow: 8vw 11vw #FCFC17;
+  /*
+  margin-left: 56vw;
+  margin-top: -45vw;
+  */
+}
+
+/*
+.Vita a {
+  margin-left: 7vw;
+  margin-top: 13vw;
+}
+*/
+
+/* justify content */
