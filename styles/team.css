@@ -13,6 +13,7 @@
 
 .team__box__member img {
   position: absolute;
+  width: 100%;
 }
 
 .Olesya img  {
@@ -52,6 +53,7 @@
 .Eva img {
   display: block;
   box-shadow: 7vw -10vw #FA1516;
+  top: 58px;
   /*
   margin-top: 28vw;
   margin-left: 2vw;
