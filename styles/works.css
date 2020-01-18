@@ -4,34 +4,122 @@ h2 {
 
 .pink {
   position: relative;
-  width: 345px;
+  width: 320px;
   height: 102px;
   margin-bottom: 10px;
+  margin-top: 33px;
   background-color: #F715B7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 99;
 }
 
 .yellow {
   position: relative;
-  width: 345px;
+  width: 320px;
   height: 102px;
   margin-bottom: 10px;
   background-color: #FCFC17;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 99;
 }
 
 .green {
-  width: 345px;
+  width: 320px;
   height: 102px;
   background-color: #16D41A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
 }
 
 .logo1 {
-  width: 107px;
+  width: 70px;
+  height: 80px;
+
 }
 
 .logo2 {
-  width: 171px;
+  width: 65px;
+  height: 78px;
 }
 
 .logo3 {
+  width: 79px;
+  height: 80px;
+}
 
+.logo4 {
+  width: 94px;
+  height: 38px;
+}
+
+.logo5 {
+  width: 151px;
+  height: 45px;
+}
+
+.logo6 {
+  width: 111px;
+  height: 60px;
+}
+
+.posters {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.posters img {
+  margin-bottom: 20px;
+  z-index: 99;
+}
+
+.recworks {
+  z-index: 1;
+}
+
+.recworks img {
+  position: absolute;
+}
+
+
+.works__redrec {
+  top: 2155px;
+  left: 213px;
+  width: 131px;
+}
+
+.works__pinkrec {
+  top: 2529px;
+  left: -20px;
+  width: 131px;
+}
+
+.works__yellowrec {
+  top: 2940px;
+  left: 150px;
+  width: 92px;
+}
+
+.works__redrecbaby {
+  top: 3373px;
+  left: -30px;
+  width: 131px;
+}
+
+.works__greenrec {
+  top: 3760px;
+  left: 250px;
+  width: 131px;
+}
+
+.works__pinkrecbaby {
+  top: 4172px;
+  left: 270px;
+  width: 54px;
 }
