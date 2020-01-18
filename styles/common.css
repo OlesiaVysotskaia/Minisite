@@ -9,6 +9,7 @@ body {
 p, li {
   font-family: 'open sans';
   font-size: 13px;
+  font-weight: normal;
   color: #FFFFFF;
 }
 
