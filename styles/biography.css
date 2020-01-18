@@ -1,3 +1,9 @@
+.nav {
+  margin-left: 3vw;
+  margin-top: 3vw;
+  width: 6vw;
+  height: 6vw;
+}
 
 .bio {
   overflow-x: hidden;
@@ -6,13 +12,20 @@
 
 h1 {
   font-size: 30px;
-
+  margin-left: 3vw;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
 }
 
 h2 {
   font-size: 16px;
+  margin-left:3vw;
+  margin-bottom: 2vw;
 }
 
 p {
   font-size: 9px;
+  margin-left: 3vw;
+  width: 32vw;
+  line-height: 124.5%;
 }
