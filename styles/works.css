@@ -1,0 +1,27 @@
+h2 {
+
+}
+
+.pink {
+  position: relative;
+  width: 345px;
+  height: 102px;
+  margin-bottom: 10px;
+  background-color: #F715B7;
+}
+
+.yellow {
+  position: relative;
+  width: 345px;
+  height: 102px;
+  margin-bottom: 10px;
+  background-color: #FCFC17;
+}
+
+.green {
+  width: 345px;
+  height: 102px;
+  background-color: #16D41A;
+}
+
+.logo1
