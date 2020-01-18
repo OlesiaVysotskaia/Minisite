@@ -1,31 +1,82 @@
-.nav {
-  margin-left: 3vw;
-  margin-top: 3vw;
-  width: 6vw;
-  height: 6vw;
+html {
+  overflow-x: hidden;
 }
 
 .bio {
-  overflow-x: hidden;
+  position: relative;
+}
+
+
+.nav {
+  margin-left: 7vw;
+  margin-top: 7vw;
+  width: 8vw;
+  height: 8vw;
 }
 
 
 h1 {
-  font-size: 30px;
-  margin-left: 3vw;
+  margin-left: 7vw;
   margin-top: 3vw;
-  margin-bottom: 2vw;
+  margin-bottom: 4vw;
 }
 
 h2 {
-  font-size: 16px;
-  margin-left:3vw;
-  margin-bottom: 2vw;
+  margin-left: 7vw;
+  margin-bottom: 4vw;
 }
 
 p {
-  font-size: 9px;
-  margin-left: 3vw;
-  width: 32vw;
+  margin-left: 7vw;
+  width: 45vw;
   line-height: 124.5%;
+}
+
+.pinkrectangle-1 {
+  width: 60vw;
+  position: absolute;
+  top: -12vw;
+  right: -25vw;
+  z-index: -1;
+}
+
+.redrectangle {
+  width: 60vw;
+  position: absolute;
+  z-index: -1;
+  top: 72vw;
+  right: -16vw;
+}
+
+.greenrectangle {
+  width: 60vw;
+  position: absolute;
+  z-index: -1;
+  top: 108vw;
+  left: -16vw;
+}
+
+.pinkrectangle2 {
+  width: 35vw;
+  position: absolute;
+  z-index: -1;
+  top: 164vw;
+  left: 52vw;
+}
+
+.yellowrectangle {
+  width: 55vw;
+  position: absolute;
+  z-index: -1;
+  top: 191vw;
+  right: -33vw;
+}
+
+.pinkrectangle {
+  width: 65vw;
+  position: absolute;
+  z-index: -1;
+  top: 242vw;
+  left: 0vw;
+
 }
