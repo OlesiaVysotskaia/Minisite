@@ -1,18 +1,25 @@
-p {
+p, li {
   font-family: 'open sans';
-  font-size: 22px;
-}
-
-li {
-  font-family: 'open sans';
-  color: #ffffff;
-  font-weight: bold;
+  font-size: 13px;
+  color: #FFFFFF;
 }
 
 h1 {
-  font-family: 'open sans'
+  font-family: 'open sans';
+  color: #FCFC17;
+  font-size: 48px;
+  font-style: bold;
 }
 
 h2 {
-  font-family: 'open sans'
+  font-family: 'open sans';
+  color: #16D41A;
+  font-size: 24px;
+  font-style: bold;
+}
+
+a {
+  font-size: 10px;
+  font-style: bold;
+  color: #000000;
 }
