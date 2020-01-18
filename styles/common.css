@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+}
+
+
 p, li {
   font-family: 'open sans';
   font-size: 13px;
