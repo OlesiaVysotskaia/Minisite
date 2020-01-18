@@ -8,18 +8,19 @@ h1 {
   font-family: 'open sans';
   color: #FCFC17;
   font-size: 48px;
-  font-style: bold;
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'open sans';
   color: #16D41A;
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
 }
 
 a {
+  font-family: 'open sans';
   font-size: 10px;
-  font-style: bold;
+  font-weight: bold;
   color: #000000;
 }
