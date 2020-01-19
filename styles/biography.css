@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+.prebio {
+  overflow-x: hidden;
+}
+
 .bio {
   position: relative;
 }
@@ -78,7 +82,7 @@ p {
   width: 70vw;
   position: absolute;
   z-index: -1;
-  top: 250vw;
+  top: 255vw;
   left: 0vw;
 }
 
