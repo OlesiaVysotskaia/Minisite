@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 
 .bio {
   position: relative;
@@ -14,13 +17,15 @@
 
 h1 {
   margin-left: 7vw;
-  margin-top: 3vw;
+  margin-top: 7vw;
   margin-bottom: 4vw;
 }
 
-h2 {
+.bio h2 {
   margin-left: 7vw;
   margin-bottom: 4vw;
+  margin-top: 3vw;
+
 }
 
 p {
@@ -41,7 +46,7 @@ p {
   width: 60vw;
   position: absolute;
   z-index: -1;
-  top: 72vw;
+  top: 60vw;
   right: -16vw;
 }
 
@@ -57,23 +62,60 @@ p {
   width: 35vw;
   position: absolute;
   z-index: -1;
-  top: 164vw;
-  left: 52vw;
+  top: 170vw;
+  left: 40vw;
 }
 
 .yellowrectangle {
-  width: 55vw;
+  width: 50vw;
   position: absolute;
   z-index: -1;
   top: 191vw;
-  right: -33vw;
+  right: -20vw;
 }
 
 .pinkrectangle {
-  width: 65vw;
+  width: 70vw;
   position: absolute;
   z-index: -1;
-  top: 242vw;
+  top: 250vw;
   left: 0vw;
+}
+
+.fotobio {
+  padding-bottom: 50vw;
+}
+
+.rendphoto {
+  width: 65%;
+  margin-left: 30vw;
+  margin-top: 30vw;
+  z-index: 1;
+}
+
+.rendphoto2 {
+  width: 110%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-top: -5vw;
+  z-index: -1;
+}
+
+#bio1 {
+  margin-left: 50vw;
+  margin-top: 5vw;
+}
+
+#bio2 {
+  width: 56vw;
+  transform: rotate(31.1deg);
+  margin-top: 25vw;
+  margin-left: 45vw;
+}
+
+#bio3 {
+  width: 55vw;
+  margin-top: 40vw;
 
 }
