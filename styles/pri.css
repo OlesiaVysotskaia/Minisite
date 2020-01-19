@@ -1,0 +1,11 @@
+.pri h2 {
+  margin-bottom: 4vw;
+}
+.pri__list {
+  list-style-type: disc;
+  margin-left: 7vw;
+  line-height: 124.5%;
+}
+.pri__list li{
+  padding: 2vw;
+}
