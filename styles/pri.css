@@ -1,5 +1,6 @@
 .pri h2 {
   margin-bottom: 4vw;
+  margin-top: 1vw;
 }
 .pri__list {
   list-style-type: disc;
