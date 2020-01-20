@@ -41,7 +41,7 @@ p {
 .pinkrectangle-1 {
   width: 60vw;
   position: absolute;
-  top: -12vw;
+  top: -5vh;
   right: -25vw;
   z-index: -1;
 }
@@ -50,7 +50,7 @@ p {
   width: 60vw;
   position: absolute;
   z-index: -1;
-  top: 60vw;
+  top: 25vh;
   right: -16vw;
 }
 
@@ -58,7 +58,7 @@ p {
   width: 60vw;
   position: absolute;
   z-index: -1;
-  top: 108vw;
+  top: 50vh;
   left: -16vw;
 }
 
@@ -66,7 +66,7 @@ p {
   width: 35vw;
   position: absolute;
   z-index: -1;
-  top: 160vw;
+  top: 80vh;
   left: 40vw;
 }
 
@@ -74,7 +74,7 @@ p {
   width: 50vw;
   position: absolute;
   z-index: -1;
-  top: 191vw;
+  top: 92vh;
   right: -20vw;
 }
 
@@ -82,7 +82,7 @@ p {
   width: 70vw;
   position: absolute;
   z-index: -1;
-  top: 255vw;
+  top: 125vh;
   left: 0vw;
 }
 
