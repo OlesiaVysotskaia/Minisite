@@ -3,9 +3,10 @@
 }
 .pri__list {
   list-style-type: disc;
-  margin-left: 7vw;
+  margin-left: 8vw;
   line-height: 124.5%;
+  width: 80vw;
 }
-.pri__list li{
-  padding: 2vw;
+.pri__list li {
+  padding: 3vw;
 }
