@@ -1,7 +1,13 @@
+.team {
+  height: 155vw;
+  margin-bottom: 10vw;
+}
+
 .team__box {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 20vw;
 }
 
 .team__box__member {
@@ -13,15 +19,25 @@
 
 .team__box__member img {
   position: absolute;
-  width: 100%;
+  width: 90%;
 }
 
 .Olesya img  {
   display: block;
-  box-shadow: -3vw 15vw #FB16BB;
-/*  margin-left: 7vw;
-    margin-top: 11vw;
-*/
+  box-shadow: -8vw 11vw #FB16BB;
+  position: absolute;
+  right: -1vw;
+  top: 2vw;
+}
+
+.Olesya a {
+  margin-bottom: 10vw;
+  margin-top: 44vw;
+  margin-right: 63vw;
+  z-index: 99;
+  margin-left: 6vw;
+  position: absolute;
+  text-decoration: none;
 }
 /*
 .Olesya a {
@@ -34,53 +50,55 @@
 
 .Lilya img {
   display: block;
-  box-shadow: 8vw 11vw #16D41A;
-  /*
-  margin-left: 56vw;
-  margin-top: -46vw;
-  */
+  box-shadow: 8vw 13vw #16D41A;
+  position: absolute;
+  left: 0vw;
 }
 
-/*
+
 .Lilya a {
-  margin-left: 7vw;
-  margin-top: 2vw;
+  margin-left: 18vw;
+  margin-top: 44vw;
   display: inline-block;
+  position: absolute;
   text-decoration: none;
 }
-*/
+
 
 .Eva img {
   display: block;
   box-shadow: 7vw -10vw #FA1516;
   top: 58px;
-  /*
-  margin-top: 28vw;
-  margin-left: 2vw;
-  */
+  position: absolute;
+  left: -3vw;
+  top: 28vw;
 }
 
-/*
+
 .Eva a {
-  margin-left: 7vw;
-  margin-top: 13vw;
+    margin-left: 8vw;
+    margin-top: 21vw;
+    position: absolute;
+    text-decoration: none;
 }
-*/
+
 
 .Vita img {
   display: block;
-  box-shadow: 8vw 11vw #FCFC17;
-  /*
-  margin-left: 56vw;
-  margin-top: -45vw;
-  */
+  box-shadow: 6vw 9vw #FCFC17;
+  position: absolute;
+  top: 29vw;
+  left: 2vw;
 }
 
-/*
+
 .Vita a {
-  margin-left: 7vw;
-  margin-top: 13vw;
+  margin-left: 9vw;
+  margin-top: 71vw;
+  margin-right: -17vw;
+  position: absolute;
+  text-decoration: none;
 }
-*/
+
 
 /* justify content */
