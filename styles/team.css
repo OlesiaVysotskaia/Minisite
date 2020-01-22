@@ -8,6 +8,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 20vw;
+  position: relative;
 }
 
 .team__box__member {
@@ -15,6 +16,14 @@
   height: 45vw;
   position: relative;
   flex-shrink: 0;
+}
+
+.wallpaper {
+    width: 104vw;
+    height: 138vw;
+    position: absolute;
+    /* z-index: 99; */
+    top: 89vw;
 }
 
 .team__box__member img {
@@ -71,13 +80,13 @@
   top: 58px;
   position: absolute;
   left: -3vw;
-  top: 28vw;
+  top: 24vw;
 }
 
 
 .Eva a {
     margin-left: 8vw;
-    margin-top: 21vw;
+    margin-top: 16vw;
     position: absolute;
     text-decoration: none;
 }
@@ -87,15 +96,14 @@
   display: block;
   box-shadow: 6vw 9vw #FCFC17;
   position: absolute;
-  top: 29vw;
+  top: 16vw;
   left: 2vw;
 }
 
 
 .Vita a {
-  margin-left: 9vw;
-  margin-top: 71vw;
-  margin-right: -17vw;
+  margin-left: 11vw;
+  margin-top: 58vw;
   position: absolute;
   text-decoration: none;
 }
