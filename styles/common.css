@@ -8,6 +8,7 @@ body {
 }
 
 p, li {
+  margin-left: 7vw;
   font-family: 'open sans';
   font-size: 13px;
   font-weight: normal;
@@ -15,6 +16,7 @@ p, li {
 }
 
 h1 {
+  margin-left: 7vw;
   font-family: 'open sans';
   color: #FCFC17;
   font-size: 48px;
@@ -27,7 +29,8 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20vw;
-  margin-left: 3vw;
+  margin-left: 7vw;
+  
 }
 
 a {
