@@ -20,11 +20,17 @@ ul.nav__list {
   height: 40px;
 }
 
+.nav__list a {
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 li {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 25px;
-
 }
 
 /* ul.nav__list:first-child {

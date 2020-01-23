@@ -3,11 +3,14 @@
   margin-bottom: 10vw;
 }
 
+.team h2 {
+  margin-top: 10vw;
+}
+
 .team__box {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 20vw;
   position: relative;
 }
 
@@ -85,10 +88,10 @@
 
 
 .Eva a {
-    margin-left: 8vw;
-    margin-top: 16vw;
-    position: absolute;
-    text-decoration: none;
+  margin-left: 8vw;
+  margin-top: 17vw;
+  position: absolute;
+  text-decoration: none;
 }
 
 
@@ -102,10 +105,24 @@
 
 
 .Vita a {
-  margin-left: 11vw;
+  margin-left: 25vw;
   margin-top: 58vw;
   position: absolute;
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .Lilya a {
+    margin-left: 19vw;
+  }
+
+  .Eva a {
+    margin-top: 17vw;
+  }
+
+  .Vita a {
+    margin-left: 25vw;
+  }
 }
 
 
