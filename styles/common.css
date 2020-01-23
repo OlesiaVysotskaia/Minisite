@@ -15,7 +15,7 @@ p, li {
   color: #FFFFFF;
 }
 
-li {
+.nav__list li {
   font-size: 18px;
   font-weight: bold;
 }
@@ -42,4 +42,21 @@ a {
   font-size: 10px;
   font-weight: bold;
   color: #000000;
+}
+
+@media (min-width: 768px) {
+
+  h1 {
+    font-size: 96px;
+    line-height: 115.1%;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 124.5%;
+  }
 }
