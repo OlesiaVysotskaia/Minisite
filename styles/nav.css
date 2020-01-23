@@ -1,0 +1,34 @@
+nav {
+  /* display: none; */
+}
+
+@media (min-width: 768px) {
+
+nav {
+  display: inline;
+  width: 768px;
+  height: 40px;
+  background-color: #fb16bb;
+  position: fixed;
+  z-index: 99;
+}
+
+ul.nav__list {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  height: 40px;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+
+}
+
+/* ul.nav__list:first-child {
+  padding-left: 50px;
+} */
+
+}
