@@ -15,7 +15,7 @@ p, li {
   color: #FFFFFF;
 }
 
-li {
+.nav__list li {
   font-size: 18px;
   font-weight: bold;
 }
