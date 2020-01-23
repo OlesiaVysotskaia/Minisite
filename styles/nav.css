@@ -13,7 +13,7 @@ nav {
   z-index: 99;
 }
 
-ul.nav__list {
+.nav__list ul{
   display: flex;
   padding: 0;
   justify-content: center;
