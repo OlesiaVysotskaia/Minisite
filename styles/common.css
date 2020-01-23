@@ -16,7 +16,7 @@ p, li {
   color: #FFFFFF;
 }
 
-li {
+.nav__list li {
   font-size: 18px;
   font-weight: bold;
 }
@@ -36,6 +36,7 @@ h2 {
   font-weight: bold;
   margin-top: 20vw;
   margin-left: 7vw;
+  margin-bottom: 4vw;
 }
 
 a {
@@ -56,7 +57,7 @@ a {
     font-size: 64px;
   }
 
-  p {
+  p, li {
     font-size: 24px;
     line-height: 124.5%;
   }

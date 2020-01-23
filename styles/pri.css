@@ -4,8 +4,23 @@
 .pri__list {
   list-style-type: disc;
   line-height: 124.5%;
+  margin-left: 5vw;
   width: 80vw;
+  margin-top: 4vw;
 }
 .pri__list li {
   padding: 3vw;
+}
+
+@media (min-width: 768px) {
+  .pri h2 {
+    margin-top: 10vw;
+  }
+  .pri__list {
+    margin-left: 4vw;
+    width: 85vw;
+  }
+  .pri__list li {
+    line-height: 124.5%;
+  }
 }
