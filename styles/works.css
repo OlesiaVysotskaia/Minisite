@@ -70,22 +70,27 @@
   padding: 11vw;
 }
 
-.works__posters img:nth-child(-n+7) {
+.works__posters img:nth-child(-n+6) {
   margin-bottom: 20px;
   z-index: 99;
   width: 79vw;
 }
 
 .works__rectangles {
-  z-index: 1;
-}
-
-.works__rectangles img {
   position: absolute;
   width: 130vw;
   margin-top: 436vw;
   top: 100%;
   left: -13vw;
+  z-index: 1;
+}
+
+.works__rectangles-ipad {
+  display: none;
+}
+
+@media (min-width: 414px) {
+  
 }
 
 @media (min-width: 768px) {
@@ -117,7 +122,6 @@
   top: 0%;
   left: -19vw;
   z-index: 1;
-  overflow-x: hidden;
 }
 
 .works__posters img:nth-child(odd) {
