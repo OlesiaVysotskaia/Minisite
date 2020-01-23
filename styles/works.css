@@ -1,4 +1,5 @@
-.works__logo-pink {
+
+.works__logobox-pink {
   position: relative;
   width: 100vw;
   height: 33vw;
@@ -10,7 +11,7 @@
   z-index: 99;
 }
 
-.works__logo-yellow {
+.works__logobox-yellow {
   position: relative;
   width: 100vw;
   height: 33vw;
@@ -22,7 +23,7 @@
   z-index: 99;
 }
 
-.works__logo-green {
+.works__logobox-green {
   width: 100vw;
   height: 33vw;
   background-color: #16D41A;
@@ -69,7 +70,7 @@
   padding: 11vw;
 }
 
-.works__posters img {
+.works__posters img:nth-child(-n+7) {
   margin-bottom: 20px;
   z-index: 99;
   width: 79vw;
@@ -89,7 +90,7 @@
 
 @media (min-width: 768px) {
 
-  .works__logo-pink, .works__logo-yellow, .works__logo-green, .works__posters {
+  .works__logobox-pink, .works__logobox-yellow, .works__logobox-green, .works__posters {
   z-index: 88;
 }
 
@@ -100,7 +101,7 @@
   position: relative;
 }
 
-.works__posters img {
+.works__posters img:nth-child(-n+7) {
   width: 41vw;
   height: 60vw;
 }
@@ -109,8 +110,18 @@
   display: none;
 }
 
+.works__rectangles-ipad {
+  position: absolute;
+  width: 130vw;
+  margin-top: -9vw;
+  top: 0%;
+  left: -19vw;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
 .works__posters img:nth-child(odd) {
-margin-right: 20px;
+  margin-right: 20px;
 }
 
 }
