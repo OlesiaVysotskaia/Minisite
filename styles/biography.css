@@ -128,8 +128,7 @@ p {
 @media (min-width: 768px) {
 
   .nav {
-    width: 6vw;
-    height: 6vw;
+    display: none;
   }
 
 
