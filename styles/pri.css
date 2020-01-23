@@ -4,7 +4,9 @@
 .pri__list {
   list-style-type: disc;
   line-height: 124.5%;
+  margin-left: 5vw;
   width: 80vw;
+  margin-top: 4vw;
 }
 .pri__list li {
   padding: 3vw;
@@ -15,11 +17,11 @@
     margin-top: 10vw;
   }
   .pri__list {
-    list-style-type: disc;
-    line-height: 127%;
-    width: 75vw;
+    margin-left: 4vw;
+    width: 85vw;
   }
   .pri__list li {
-    padding: 3vw;
+    font-size: 24px;
+    line-height: 124.5%;
   }
 }
