@@ -9,3 +9,17 @@
 .pri__list li {
   padding: 3vw;
 }
+
+@media (min-width: 768px) {
+  .pri h2 {
+    margin-top: 10vw;
+  }
+  .pri__list {
+    list-style-type: disc;
+    line-height: 127%;
+    width: 75vw;
+  }
+  .pri__list li {
+    padding: 3vw;
+  }
+}
