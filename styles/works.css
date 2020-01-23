@@ -2,7 +2,7 @@ h2 {
 margin-bottom: 4vw;
 }
 
-.pink {
+.works__logo-pink {
   position: relative;
   width: 100vw;
   height: 33vw;
@@ -14,7 +14,7 @@ margin-bottom: 4vw;
   z-index: 99;
 }
 
-.yellow {
+.works__logo-yellow {
   position: relative;
   width: 100vw;
   height: 33vw;
@@ -26,7 +26,7 @@ margin-bottom: 4vw;
   z-index: 99;
 }
 
-.green {
+.works__logo-green {
   width: 100vw;
   height: 33vw;
   background-color: #16D41A;
@@ -67,58 +67,66 @@ margin-bottom: 4vw;
   height: 60px;
 }
 
-.posters {
+.works__posters {
   display: flex;
   flex-direction: column;
   padding: 40px;
 }
 
-.posters img {
+.works__posters img {
   margin-bottom: 20px;
   z-index: 99;
+  width: 79vw;
 }
 
-.recworks {
+.works__rectangles {
   z-index: 1;
 }
 
-.recworks img {
+.works__rectangles img {
   position: absolute;
+  width: 130vw;
+  margin-top: 436vw;
+  top: 100%;
+  left: -13vw;
+}
+
+/* .works__rectangles img {
+  position: relative;
 }
 
 
 .works__redrec {
-  top: 612vw;
-  left: 54vw;
+  margin-left: 54vw;
   width: 60vw;
 }
 
 .works__greenrec {
-  top: 733vw;
-  left: -15vw;
+  margin-top: 30vw;
+  margin-left: -15vw;
   width: 55vw;
 }
 
 .works__pinkrec {
-  top: 856vw;
-  left: 40vw;
+  margin-top: 30vw;
+  margin-left: 40vw;
   width: 40vw;
 }
 
 .works__yellowrec {
-  top: 991vw;
-  left: -20vw;
+  margin-top: 30vw;
+  margin-left: -20vw;
   width: 55vw;
 }
 
 .works__redrecbaby {
-  top: 1100vw;
-  left: 56vw;
+  margin-top: 30vw;
+  margin-left: 56vw;
   width: 60vw;
 }
 
 .works__pinkrecbaby {
-  top: 1225vw;
+  margin-top: 30vw;
   left: 75vw;
   width: 20vw;
-}
+} */
