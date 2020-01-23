@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
 }
 
+
+.nav__list {
+  display: none;
+}
+
 .prebio {
   overflow-x: hidden;
 }
@@ -207,4 +212,58 @@ p {
   }
 
 
+}
+
+@media (min-width: 414px) {
+
+  .pinkrectangle-1 {
+    width: 60vw;
+    top: -19vw;
+    right: -25vw;
+  }
+
+  .redrectangle {
+    width: 40vw;
+    top: 63vw;
+    right: -22vw;
+  }
+
+  .greenrectangle {
+    width: 45vw;
+    top: 75vw;
+    left: -16vw;
+  }
+
+  .pinkrectangle2 {
+    width: 30vw;
+    top: 126vw;
+    left: 50vw;
+  }
+
+  .yellowrectangle {
+    width: 45vw;
+    top: 150vw;
+    right: -30vw;
+  }
+
+  .pinkrectangle {
+    width: 70vw;
+    top: 200vw;
+    left: 7vw;
+  }
+
+  .fotobio {
+    padding-bottom: 50vw;
+  }
+
+  .rendphoto {
+    width: 65%;
+    margin-left: 30vw;
+    margin-top: 30vw;
+  }
+
+  .rendphoto2 {
+    width: 110%;
+    margin-top: -5vw;
+  }
 }
