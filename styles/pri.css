@@ -1,10 +1,8 @@
 .pri h2 {
-  margin-bottom: 4vw;
   margin-top: 1vw;
 }
 .pri__list {
   list-style-type: disc;
-  margin-left: 8vw;
   line-height: 124.5%;
   width: 80vw;
 }
