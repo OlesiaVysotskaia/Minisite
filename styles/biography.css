@@ -41,7 +41,7 @@ p {
 .pinkrectangle-1 {
   width: 60vw;
   position: absolute;
-  top: -5vh;
+  top: -5vw;
   right: -25vw;
   z-index: -1;
 }
@@ -50,7 +50,7 @@ p {
   width: 60vw;
   position: absolute;
   z-index: -1;
-  top: 25vh;
+  top: 52vw;
   right: -16vw;
 }
 
@@ -58,7 +58,7 @@ p {
   width: 60vw;
   position: absolute;
   z-index: -1;
-  top: 50vh;
+  top: 96vw;
   left: -16vw;
 }
 
@@ -66,7 +66,7 @@ p {
   width: 35vw;
   position: absolute;
   z-index: -1;
-  top: 80vh;
+  top: 161vw;
   left: 40vw;
 }
 
@@ -74,7 +74,7 @@ p {
   width: 50vw;
   position: absolute;
   z-index: -1;
-  top: 92vh;
+  top: 191vw;
   right: -20vw;
 }
 
@@ -82,7 +82,7 @@ p {
   width: 70vw;
   position: absolute;
   z-index: -1;
-  top: 125vh;
+  top: 252vw;
   left: 0vw;
 }
 
@@ -121,5 +121,17 @@ p {
 #bio3 {
   width: 55vw;
   margin-top: 40vw;
+
+}
+
+
+@media (min-width: 768px) {
+
+  .nav {
+    width: 6vw;
+    height: 6vw;
+  }
+
+
 
 }
