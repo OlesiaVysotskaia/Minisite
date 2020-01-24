@@ -22,11 +22,11 @@
 }
 
 .wallpaper {
-    width: 104vw;
-    height: 138vw;
-    position: absolute;
-    /* z-index: 99; */
-    top: 89vw;
+  width: 104vw;
+  height: 138vw;
+  position: absolute;
+  /* z-index: 99; */
+  top: 89vw;
 }
 
 .team__box__member img {
